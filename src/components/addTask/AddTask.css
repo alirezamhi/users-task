@@ -1,0 +1,26 @@
+.add-task{
+    height: 100vh;
+    border-left: 1px solid rgb(176, 176, 176);
+}
+.form-control{
+    background-color: #fff !important;
+}
+.filter_task{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:768px) {
+    .add-task{
+        height: 100vh;
+        border-top: 1px solid rgb(176, 176, 176);
+        margin-top: 20px;
+    } 
+    .filter_task{
+        display: block;
+        text-align: center;
+    }
+    .filter_task input {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+}

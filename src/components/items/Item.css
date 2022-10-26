@@ -1,0 +1,5 @@
+@media(max-width:768px) {
+    .show_item{
+        text-align: center !important;
+    }
+}
